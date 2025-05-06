@@ -1,0 +1,21 @@
+/* здесь используйте глобальные селекторы img, body, html и так далее */
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration-skip-ink: none;
+
+  @include default-interaction;
+}
